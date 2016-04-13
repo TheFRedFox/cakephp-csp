@@ -19,6 +19,14 @@ To load this Plugin inside CakePHP:
 Plugin::load('Csp');
 ```
 
+In your layout or your pages, you have to load the css and js files of the csp plugin:
+
+``` php
+// in your layout/page file
+$this->Html->css('Csp.csp');
+$this->Html->script('Csp.csp');
+```
+
 If you don't use any other FormHelper or HtmlHelper yet, you can easily use the Helpers of this plugin:
 
 ``` php
