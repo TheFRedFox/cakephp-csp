@@ -1,5 +1,5 @@
 {
-    "name": "thefredfox/cakephp-csl",
+    "name": "thefredfox/cakephp-csp",
     "description": "Makes CakePHP 3 CSP supportable by removing inline javascript and inline styles.",
     "type": "cakephp-plugin",
     "license": "MIT",
