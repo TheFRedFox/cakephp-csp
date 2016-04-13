@@ -14,14 +14,14 @@ composer require thefredfox/cakephp-csp
 
 To load this Plugin inside CakePHP:
 
-```
+``` php
 // in bootstrap.php file
 Plugin::load('Csp');
 ```
 
 If you don't use any other FormHelper or HtmlHelper yet, you can easily use the Helpers of this plugin:
 
-```
+``` php
 // in your AppView
 public function initialize()
 {
@@ -33,7 +33,7 @@ public function initialize()
 ### Extending third party helpers
 If you are using another FormHelper or HtmlHelper (e.g. the BootstrapUI helpers), you may use the Traits provided by this plugin in an own extending Helper class:
 
-```
+``` php
 // in src/View/Helper/FormHelper
 
 class FormHelper extends \BootstrapUI\View\Helper\FormHelper {
@@ -46,7 +46,7 @@ class FormHelper extends \BootstrapUI\View\Helper\FormHelper {
 ### Extending your own helpers
 If you already extends one of the helpers, you can try to use the Trait like above, but you may want to extend your helper again to not override something.
 
-```
+``` php
 // in src/View/Helper/CspFormHelper (or the like)
 
 class CspFormHelper extends FormHelper {
