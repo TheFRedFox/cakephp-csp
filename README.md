@@ -24,7 +24,7 @@ In your layout or your pages, you have to load the css and js files of the csp p
 ``` php
 // in your layout/page file
 $this->Html->css('Csp.csp');
-$this->Html->script('Csp.csp');
+$this->Html->script('Csp.csp'); //this script has to be loaded at the bottom
 ```
 
 If you don't use any other FormHelper or HtmlHelper yet, you can easily use the Helpers of this plugin:
