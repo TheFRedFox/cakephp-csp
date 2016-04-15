@@ -1,5 +1,9 @@
 # Csp plugin for CakePHP
 
+## Description
+
+This plugin does some slight changes in the FormHelper and HtmlHelper, so there won't be any inline script resp. style anymore, so the developer can easily add CSP headers.
+
 ## Installation
 
 You can install this plugin into your CakePHP application using [composer](http://getcomposer.org).
